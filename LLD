@@ -1,0 +1,138 @@
+/*
+LLD:
+
+How to approach LLD problems:
+Types of LLD rounds
+Expectations
+Approach to a problem
+Types of LLD interviews:
+Theoretical rounds (amazon, microsoft, non-tech company)
+What is a design pattern???
+CS fundamentals
+DB questions
+Design problems/ LLD rounds
+Questions are abstract (non-ellaborative problems/ one liner)
+Design splitwise, pen, etc
+This is to check how do you gather your requirements, use cases, understanding the details?
+Clarify problems/ requirements
+Design abilities
+Use case diagram
+Class diagram (every time you need to design class diagram, use case and schema designs are optional)
+Schema design
+In this round, you are never asked to write complete code, mostly one or two classes to see OOPs concepts
+Machine coding round (IDE required)
+You are given a detailed set of requirements (detailed problems)
+There is always scope of clarification (2 hours for this round)
+Clarify the requirements
+Class diagram/ schema designs
+Code a complete working design with input and output passed and optimisation 
+Q: What does a working solution mean?
+A: 1. the requirements should be done - take inputs and process correct outputs
+ 2. Project should be of good design (project structure), make use of design patterns (strategy, adapter, factory, builder DP)
+Concurrency - handle race condition, multi-threading (where should we use multi-threading)
+Testing (rare) - write unit test cases for the requirements
+
+Q: what is the difference between machine coding round and LLD round?
+A: requirements; in LLD, you have to gather the requirements (follow SDLC); in machine coding, you have requirements and you need to design the code (follow design patterns)
+
+Q: How to approach LLD problems?
+A: problem
+Gathering requirements (5-6 mins)
+Expectations: you are expected to lead the interview (giving ideas and lead the system like your own)
+Suggest ideas and different features/ use cases
+Make pointers (write all the pointers that you and interviewer are discussing)
+Current scope of the product
+What is the product? 
+What is X? (ask the question to get the high level understanding of system)
+List down all the use cases
+In your mind, have a high level overview of why a system exist and what does it do?
+How will a user interact with system
+Command line interaction 
+APIs (get and post rest API) web interaction
+Clarifying (6-8 mins)
+Current scope (all the different use cases/ requirements work)
+Edge cases (variation based use cases)
+visualise (in slowmo - each step)
+Future scope
+Can this happen in a different way in future? (ideation with edge cases)
+Ask clarification that can impact your design
+Use case diagrams
+Ask if need to draw this diagram
+Write atleast one use case with includes or extends
+Class diagrams
+What does a class diagram involve? - only draw the models (classes)
+Don’t need to be exact with the methods that will be there in every entity.
+List down the entities, corresponding classes and attribute of those entity.
+List all the cardinality of relations  
+Code (models, controllers, services, etc)
+
+Ways to identify classes
+Nouns
+Visualisation
+
+
+
+
+
+
+
+
+
+
+
+
+Q: Design a Pen (amazon question)
+A: real world problem - entity design problem
+Gathering a requirements
+What is pen? (would you mind telling me about the pen system?)
+Can there be different types of pen in the system?
+How do we define a pen? (description)
+Anything that can write is a pen
+Details of every entity (finding the attributes) 
+Entity is a class, ask about the attributes (suggest first)
+Pen is a refillable or not?
+Color of a pen (ink)
+A refil as a nib
+Fountain pen has a nib
+Use cases
+A pen is anything that can write
+All pens have brand name and price
+Pen can be either ball pen or gel pen or fountain
+Ball pen and gel pen have refil
+Refil has nib and ink
+Fountain pen has nib and ink
+Ink can be of any color
+Some pens are refillable, some might not be
+Clarifying the requirements
+Different pens might write in a different way => means different nibs
+Nib has a radius (0.5mm-1mm)
+Class diagram
+Write about different classes of your system
+Define attributes
+Define interface
+Can any pen is refillable
+If yes, that class should implement that interface
+If no, pass
+change_refil()
+
+
+
+
+
+
+
+
+Q: Design the game of tic-tac-toe game that is played between two players on a n x n grid. The game supports following features:
+1. One or both of the two players can be computer.
+2. User should be able to select a difficulty level(easy, medium, hard) while playing with a computer.
+
+A: according to SDLC
+Gathering requirements:
+Define tic tac toe game: the game is nxn grid, there will be only two inputs: X and O. if there will be three letf/right/up/down/cross same values, there will be win
+Two users are playing this: one or both will be the user, other will be computer in case of one real user
+What are the difficulty levels: easy, medium, hard
+Clarifying the requirements:
+Did i understand this correctly?
+
+
+*/
